@@ -101,11 +101,14 @@ body {
   animation-delay: 1s;
 }
 .home-img img {
-  max-width: 450px;
-  margin-right: -20px;
+  width: 500px;
+  height: 500px;
+  /* max-width: 450px; */
+  margin-right: -10px;
   opacity: 0;
-  animation: zoomIn 1s ease forwards;
-  animation-delay: 2s;
+  animation: zoomIn 2s ease forwards;
+  animation-delay: 2.5s;
+  border-radius: 90%;
 }
 
 .social-media a {
